@@ -19,7 +19,7 @@
         ]
       },
       {
-        "group": "Data",
+        "group": "Step 1: Entering your data",
         "pages": [
           "essentials/settings",
           "essentials/navigation",
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "group": "Model",
+        "group": "Step 2: Building a model",
         "pages": [
           "essentials/markdown",
           "essentials/code",
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "group": "Timetable",
+        "group": "Step 3: Creating a timetable",
         "pages": [
           "ai-tools/cursor",
           "ai-tools/claude-code",
