@@ -23,9 +23,9 @@
         }
       ]
     },
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Guides",
+        "anchor": "Guides",
         "groups": [
           {
             "group": "Getting started",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "anchor": "API reference",
         "hidden": true,
         "groups": [
           {
