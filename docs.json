@@ -9,47 +9,63 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Getting started",
-        "pages": [
-          "index",
-          "quickstart",
-          "development"
+        "tab": "User Guide",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Step 1: Entering your data",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation",
+              "data/untitled-page",
+              "data/subjects",
+              "data/teachers"
+            ]
+          },
+          {
+            "group": "Step 2: Building a model",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Step 3: Creating a timetable",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "Checks",
+            "pages": [
+              "essentials/images",
+              "model/checks-conflict-matrix",
+              "model/checks-rooming"
+            ]
+          }
         ]
       },
       {
-        "group": "Step 1: Entering your data",
-        "pages": [
-          "essentials/settings",
-          "essentials/navigation",
-          "data/untitled-page",
-          "data/subjects",
-          "data/teachers"
-        ]
-      },
-      {
-        "group": "Step 2: Building a model",
-        "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/reusable-snippets"
-        ]
-      },
-      {
-        "group": "Step 3: Creating a timetable",
-        "pages": [
-          "ai-tools/cursor",
-          "ai-tools/claude-code",
-          "ai-tools/windsurf"
-        ]
-      },
-      {
-        "group": "Checks",
-        "pages": [
-          "essentials/images",
-          "model/checks-conflict-matrix",
-          "model/checks-rooming"
+        "tab": "Timetabling 101",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "timetabling-101/getting-started/introduction"
+            ]
+          }
         ]
       }
     ]
